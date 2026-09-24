@@ -25,23 +25,26 @@
           <label for="gasolina" class="for-label">
             Gasolina:
             </label>
-            <input type="number" placeholder="R$0,00" class="form-control" name="gasolina\" step="0.01" required>
+            <input type="number" placeholder="R$ 0,00" class="form-control" name="gasolina" step="0.01" required>
         </div>
         <div class="col-12">
           <label for="etanol" class="form-label">
             Etanol:
              </label>
-            <input type="number" placeholder="R$ 0,00" class="form-control" name="etanol" step="0,01" required>         
-        <div class="d-flex justify-content-center met-5">
+            <input type="number" placeholder="R$ 0,00" class="form-control" name="etanol" step="0.01" required>   
+             </div>      
+          <div class="d-flex justify-content-center mt-5">
           <button type="submit" class="btn btn-success col-4">
             Calcular
-          </button>
-        </div>
+          </button> 
+         </div>      
        </form>
-       <h2>
+       <div class="d-flex justify-content-center mt-5 mb-5">
+         <h2>
+      </div>
         {{ msg if msg else '' }}
        </h2>
-      </div>
+     
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
